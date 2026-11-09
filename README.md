@@ -6,7 +6,7 @@
 
 A complete, Excel-based sales analysis project focused on converting unstructured order records into an interactive dashboard. The analysis covers recorded sales value, product demand, geographic distribution, sales platforms, customer segments, and delivery performance to support more informed business decisions.
 
-![MISUO Sales Performance Dashboard](images/dashboard.png)
+![MISUO Sales Performance Dashboard](dashboard.png)
 
 ## Project Overview
 
@@ -124,25 +124,21 @@ Insights & Business Recommendations
 
 ```text
 MISUO-Sales-Performance-Analysis/
-├── README.md
 ├── .gitignore
-├── data/
-│   └── MISUO_Raw_Data.xlsx
-├── excel/
-│   └── MISUO_Sales_Analysis.xlsx
-├── images/
-│   └── dashboard.png
-└── report/
-    ├── MISUO_Sales_Performance_Report.pdf
-    └── MISUO_Sales_Performance_Report.pptx
+├── README.md
+├── MISUO_Raw_Data.xlsx
+├── MISUO_Sales_Analysis.xlsx
+├── dashboard.png
+├── MISUO_Sales_Performance_Report.pdf
+└── MISUO_Sales_Performance_Report.pptx
 ```
 
 ## Explore the Project
 
-1. **[View the dashboard](images/dashboard.png)** for a quick overview of the final result.
-2. **[Open the Excel analysis workbook](excel/MISUO_Sales_Analysis.xlsx)** in desktop Microsoft Excel to inspect the prepared data, Pivot Tables, charts, and filters.
-3. **[Read the full project report](report/MISUO_Sales_Performance_Report.pdf)** for the analysis, visuals, and recommendations.
-4. **[Review the raw workbook](data/MISUO_Raw_Data.xlsx)** to compare the source with the prepared analysis file.
+1. **[View the dashboard](dashboard.png)** for a quick overview of the final result.
+2. **[Open the Excel analysis workbook](MISUO_Sales_Analysis.xlsx)** in desktop Microsoft Excel to inspect the prepared data, Pivot Tables, charts, and filters.
+3. **[Read the full project report](MISUO_Sales_Performance_Report.pdf)** for the analysis, visuals, and recommendations.
+4. **[Review the raw workbook](MISUO_Raw_Data.xlsx)** to compare the source with the prepared analysis file.
 
 The dashboard and its filters are designed for Microsoft Excel; GitHub itself displays a static file preview rather than an interactive Excel dashboard.
 
